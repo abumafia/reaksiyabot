@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 // ==================== KONFIGURATSIYA ====================
 const BOT_TOKEN = process.env.BOT_TOKEN || '8281292518:AAFuq8rtIvALavkqkKdOkge-3ZdVx2igLnU';
-const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://abumafia0:abumafia0@abumafia.h1trttg.mongodb.net/st3bot?appName=abumafia';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://abumafia0:abumafia0@abumafia.h1trttg.mongodb.net/st4bot?appName=abumafia';
 const ADMIN_IDS = (process.env.ADMIN_IDS || '6606638731').split(',').filter(id => id.trim() !== '').map(id => parseInt(id));
 const WEBHOOK_DOMAIN = process.env.WEBHOOK_DOMAIN || process.env.RENDER_EXTERNAL_URL;
 const WEBHOOK_PATH = process.env.WEBHOOK_PATH || '/webhook';
